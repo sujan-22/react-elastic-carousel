@@ -47,7 +47,6 @@ export default {
     serve({
       open: true,
       contentBase: "demoApp/dist",
-        port: 5000,
     }),
     livereload(),
     replace({
